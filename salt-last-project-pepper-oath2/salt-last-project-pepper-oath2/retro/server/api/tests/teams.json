@@ -1,0 +1,40 @@
+{
+  "_id": {
+      "$oid": "5bfbca4c89e6f97ff8ff7d4d"
+  },
+  "teamName": "Newbies2",
+  "email": "newtest2@g.com",
+  "members": [
+      {
+          "_id": {
+              "$oid": "5bfbca7589e6f97ff8ff7d4e"
+          },
+          "name": "May"
+      },
+      {
+          "_id": {
+              "$oid": "5bfc04c1b5f720074393a744"
+          },
+          "name": "Marcus"
+      },
+      {
+          "_id": {
+              "$oid": "5bfc04c7b5f720074393a745"
+          },
+          "name": "John"
+      },
+      {
+          "_id": {
+              "$oid": "5bfd07ebb626d4146e4e84e2"
+          },
+          "name": "Jakobb"
+      },
+      {
+          "_id": {
+              "$oid": "5bfe9ee990ab5ffed021f244"
+          },
+          "name": "Peter"
+      }
+  ],
+  "__v": 0
+}

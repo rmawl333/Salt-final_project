@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+body,
+html {
+
+  height: 100%;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#protipsSegment{
+  background-color: rgb(71, 140, 209);
+  color:white;
+}
+#containerElement {
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.timerBtn{
+  position: fixed;
+  top: 100px;
+  right: 1%;
+}
+
+.weeklyBtns {
+  position: -webkit-sticky;
+  position: fixed;
+  bottom: 20px;
+  right: 2%;
+  background-color: white;
+}
+
+.weeklyBtns:hover > .icon {
+  transform: scale(1.5);
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon {
+  transition: opacity 0.2s, color 0.2s, transform 0.2s;
+}
+
+#firstPage {
+  margin-top: 8%;
+}
+
+#firstSegment {
+  margin-top: 90px;
+}
+
+.element {
+  padding-bottom: 50px;
+}
+
+#headerRow {
+  padding-bottom: 10%;
+}
+
+.retroRow {
+  padding-bottom: 10%;
+}
+
+#DailyHistoryGrid{
+  margin-top: 6%;
+}
+
+#DailyRetroGrid{
+  margin-top: 10%;
+}
+
+#WeeklyHistoryGrid{
+  margin-top: 6%;
+}
+
+.scrollBtn {
+  margin-top: 80px;
+}
+
+.column > .moodCol{
+  width: 300px;
+  padding: 0;
+
+}
+
+#moodRow{
+  margin-top: 2%;
+}
+
+#moodBtn{
+  margin-top: 2%;
+}
+
+.moodLbl{
+  width: 200px;
+}
+
+.dividers {
+  margin-top: 100px;
+  padding: 0;
+}
+
+.auth-nav {
+  padding: 0;
+  margin: 0;
+}
+
+.login-form {
+  margin-top: 5%;
+}
+
+.mainNav {
+  padding: 0;
+  border-radius: 0;
+  position:fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.ui.segment {
+  border-radius: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.mainDiv {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.jumbotron {
+  color:white;
+  background-color:#e8e8e8;
+  margin: 0;
+  max-width: 100%;
+  max-height: 25%;
+  padding: 100px 0 100px 0;  
+}
+
+.teamPageHeader{
+  color:rgb(36, 36, 36);
+}
+
+.memberForm {
+  background-color: rgb(237, 236, 236);
+  padding: 5%;
+}
+
+.memberForm h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.memberForm input {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.memberForm button {
+  width: 100px;
+  height: 45px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.improvDiv {
+  margin-top: 20px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+}
+
+.improvDiv .list-group {
+  width: 50%;
+  align-self: flex-end;
+  text-align: center;
+}
+
+.dailyForm,
+.weeklyForm {
+  font-size: 1.5rem;
+  background-color: rgb(239, 239, 239);
+  padding: 2% 0;
+}
+
+.dailyHistory,
+.weeklyHistory {
+  padding: 1% 20px;
+  margin-bottom: 1%;
+  text-align: left;
+  background-color: rgb(239, 239, 239);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.thirdContainer {
+  max-width: 100%;
+  margin-top: 5%;
+}
+
+.DailyContainer {
+  max-width: 100%;
+  margin-top: 5%;
+}
+
+#container {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100px;
+  height: 400px;
+  background-color: grey;
+}
+
+#actImprov {
+  text-align: center;
+}
+
+.ui.segment, .actionCont{
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.titles{
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .ui.form{
+    margin-top: 20%;
+  }
+  .mainDiv{
+    margin-top: 100px;
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "testPathIgnorePatterns": [
+    "/node_modules/",
+    "/client/"
+  ],
+  "verbose": true
+}
